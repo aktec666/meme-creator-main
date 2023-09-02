@@ -16,7 +16,9 @@ def index():
         text_bottom =  request.form['textBottom']
 
         # Задание №3. Получаем расположение текста
-       
+        text_top_y = request.form['textTop_y']
+        text_bottom_y = request.form['textBottom_y']
+        selected_color = request.form.get('color-selector')
 
         # Задание №3. Получаем цвет текста
         
@@ -30,7 +32,9 @@ def index():
 
                                # Задание №3. Отображаем цвет 
                                
-                               
+                               text_top_y = text_top_y,
+                               text_bottom_y = text_bottom_y,
+                               selected_color = selected_color,
                                #Задание №3. Отоброжаем расположение текста
 
                                )
