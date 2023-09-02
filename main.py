@@ -28,13 +28,13 @@ def index():
                                selected_image=selected_image, 
 
                                # Задание №2. Отображаем текст
-                               text_top = text_top, text_bottom = text_bottom
+                               text_top = text_top, text_bottom = text_bottom,
 
                                # Задание №3. Отображаем цвет 
                                
                                text_top_y = text_top_y,
                                text_bottom_y = text_bottom_y,
-                               selected_color = selected_color,
+                               selected_color = selected_color
                                #Задание №3. Отоброжаем расположение текста
 
                                )
